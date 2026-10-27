@@ -2,6 +2,7 @@
 
 # New Relic's Node.js agent
 [![npm status badge][1]][2] [![Server Smoke Tests][3]][4] [![Node Agent CI][5]][6] [![codecov][7]][8]
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frobszumski%2Fnode-newrelic.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frobszumski%2Fnode-newrelic?ref=badge_shield)
 
 This package instruments your application for performance monitoring with [New Relic](https://newrelic.com).
 
@@ -60,6 +61,9 @@ To use New Relic's Node.js agent entails these three steps, which are described 
 
     /* ... the rest of your program ... */
     ```
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frobszumski%2Fnode-newrelic.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frobszumski%2Fnode-newrelic?ref=badge_large)
 
 ## Next.js instrumentation
 **Note**: The minimum supported Next.js version is [12.0.9](https://github.com/vercel/next.js/releases/tag/v12.0.9).  If you are using Next.js middleware the minimum supported version is [12.2.0](https://github.com/vercel/next.js/releases/tag/v12.2.0).
@@ -289,4 +293,3 @@ The Node.js agent also uses source code from third-party libraries. You can find
 [6]: https://github.com/newrelic/node-newrelic/actions?query=workflow%3A%22Node+Agent+CI%22
 [7]: https://codecov.io/gh/newrelic/node-newrelic/branch/main/graph/badge.svg
 [8]: https://codecov.io/gh/newrelic/node-newrelic
-
